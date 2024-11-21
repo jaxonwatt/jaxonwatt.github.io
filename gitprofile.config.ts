@@ -185,7 +185,7 @@ const CONFIG = {
     displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
-    themes: [],
+    themes: ['business'],
 
     // Custom theme, applied to `procyon` theme
     customTheme: {
