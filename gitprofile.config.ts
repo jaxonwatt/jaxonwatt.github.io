@@ -52,17 +52,17 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Jaxon Watt Portfolio',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'jaxonwatt',
+    linkedin: 'jaxon-watt-aa3142331',
     twitter: 'emcraldtwt',
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '@jaxonwatt',
+    instagram: 'jaxonwatt',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
@@ -70,8 +70,8 @@ const CONFIG = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    dev: '',
+    stackoverflow: '19783530/jaxon-watt', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: 'https://www.jaxonwatt.com',
@@ -171,7 +171,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
