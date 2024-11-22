@@ -17,13 +17,15 @@ const CONFIG = {
       projects: [
         {
           title: 'Shortna - URL Shortener',
-          description: 'Simple URL Shortner.',
+          description:
+            'Simple URL Shortner. Source Code: https://github.com/emcrald/Shortna',
           imageUrl: 'https://i.imgur.com/90OtqJd.png',
           link: 'https://shortna.netlify.app/',
         },
         {
           title: 'JaxConvert',
-          description: 'Convert WEBP images into a PNG instantly!',
+          description:
+            'Convert WEBP images into a PNG instantly! Source Code: https://github.com/emcrald/JaxConvert',
           imageUrl: 'https://i.imgur.com/ncjOMS7.png',
           link: 'https://jaxconvert.netlify.app/',
         },
@@ -63,8 +65,8 @@ const CONFIG = {
           'emcrald/JaxScript',
           'emcrald/Clubmine-Web',
           'emcrald/is-discord-token',
-          'emcrald/DuckyRoll',
-          'ClubMinecraft/ResourcePack',
+          'emcrald/JaxConvert',
+          'emcrald/Shortna',
           'emerald-Bots-Studios/revinal',
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
