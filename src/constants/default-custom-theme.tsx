@@ -1,5 +1,5 @@
 export const DEFAULT_CUSTOM_THEME = {
-  primary: '#1C4976',
+  primary: '#4ccdea',
   secondary: '#219aaf',
   accent: '#e8d03a',
   neutral: '#2A2730',

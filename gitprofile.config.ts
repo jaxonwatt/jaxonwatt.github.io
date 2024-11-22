@@ -16,6 +16,18 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Shortna - URL Shortener',
+          description: 'Simple URL Shortner.',
+          imageUrl: 'https://i.imgur.com/90OtqJd.png',
+          link: 'https://shortna.netlify.app/',
+        },
+        {
+          title: 'JaxConvert',
+          description: 'Convert WEBP images into a PNG instantly!',
+          imageUrl: 'https://i.imgur.com/ncjOMS7.png',
+          link: 'https://jaxconvert.netlify.app/',
+        },
+        {
           title: 'Revinal Bot',
           description:
             'An Advanced Logging and Moderation Discord Bot built with JavaScript and hosted on a Raspberry Pi Linux server',
@@ -210,7 +222,7 @@ const CONFIG = {
 
     // Custom theme, applied to `procyon` theme
     customTheme: {
-      primary: '#1C4976',
+      primary: '#4ccdea',
       secondary: '#219aaf',
       accent: '#e8d03a',
       neutral: '#2A2730',
