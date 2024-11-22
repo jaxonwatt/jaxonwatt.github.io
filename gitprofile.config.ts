@@ -16,27 +16,25 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Revinal Bot',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'An Advanced Logging and Moderation Discord Bot built with JavaScript and hosted on a Raspberry Pi Linux server',
+          imageUrl: 'https://i.imgur.com/nZE5Y4Q.png',
+          link: 'https://revinal.xyz',
         },
         {
-          title: 'Project Name',
+          title: 'First Tech Challenge',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'On November 5th, 2022, I had the privilege of participating in the Queensland Regionals First Tech Challenge where my team the Ninja-neers and I designed, constructed, and programmed a robot to autonomously navigate through a course collecting cones and depositing them into designated goals. This helped grow and improve my skills when it comes to designing and troubleshooting.',
+          imageUrl: 'https://i.imgur.com/w6vzyKp.png',
+          link: 'https://ftc-events.firstinspires.org/2022/team/19480',
         },
       ],
     },
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -47,12 +45,21 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['emcrald/Emerald-Core'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'emcrald/Emerald-Core',
+          'emcrald/Emerald-Music',
+          'emcrald/JaxScript',
+          'emcrald/Clubmine-Web',
+          'emcrald/is-discord-token',
+          'emcrald/DuckyRoll',
+          'ClubMinecraft/ResourcePack',
+          'emerald-Bots-Studios/revinal',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
   },
   seo: {
-    title: 'Jaxon Watt Portfolio',
+    title: 'Jaxon Watt - Portfolio',
     description: '',
     imageURL: '',
   },
@@ -62,16 +69,16 @@ const CONFIG = {
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: 'jaxonwatt',
+    instagram: 'jaxon.watt',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '19783530/jaxon-watt', // example: '1/jeff-atwood'
+    stackoverflow: '19783530/jaxon-watt',
     skype: '',
     telegram: '',
     website: 'https://www.jaxonwatt.com',
@@ -79,89 +86,103 @@ const CONFIG = {
     email: 'mail@jaxonwatt.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://jaxonwatt.com/resume.pdf',
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'Python',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Node.js',
+    'MySQL',
+    'MongoDB',
+    'Git',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Sublime Technologies',
+      position: 'Internship - Junior Technician',
+      from: 'January 2022',
+      to: 'December 2022',
+      companyLink: 'https://sublimetech.com.au',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'TAFE Certificate IV',
+      body: 'Cybersecurity',
+      year: 'July 2025',
+      link: 'https://tafeqld.edu.au/course/18/18451/certificate-iv-in-cyber-security',
+    },
+    {
+      name: 'TAFE Certificate II',
+      body: 'Autonomous Technologies',
+      year: 'June 2024',
+      link: 'https://tafeqld.edu.au/course/19/19102/certificate-ii-in-autonomous-technologies',
+    },
+    {
+      name: 'TAFE Certificate II',
+      body: 'Networking',
+      year: 'June 2024',
+      link: 'https://tafeqld.edu.au/course/18/18079/certificate-ii-in-telecommunications-technology-networking',
+    },
+    {
+      name: 'FutureLearn Cerificate of Completion',
+      body: 'Introduction to Physical Computing',
+      year: 'September 2022',
+      link: 'https://www.futurelearn.com/courses/an-introduction-to-physical-computing',
+    },
+    {
+      name: 'Codecademy Cerificate of Completion',
+      body: 'Fundamentals of Cyber Resilience and Risk Management Skill Path',
+      year: 'August 2022',
+      link: 'https://www.codecademy.com/learn/paths/cyber-resilience-risk-management',
+    },
+    {
+      name: 'Codecademy Cerificate of Completion',
+      body: 'Learn JavaScript Course',
+      year: 'August 2022',
+      link: 'https://www.codecademy.com/learn/introduction-to-javascript',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'TAFE',
+      degree: 'Certificate IV Cybersecurity',
+      from: '2024',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'TAFE',
+      degree: 'Certificate II Autonomous Technologies',
+      from: '2023',
+      to: '2024',
+    },
+    {
+      institution: 'Home-schooled',
+      degree: 'School',
+      from: '2021',
+      to: '2023',
+    },
+    {
+      institution: 'Faith Lutheran College, Redlands',
+      degree: 'School',
       from: '2012',
-      to: '2014',
+      to: '2021',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Jaxon turns his passion into a tech career',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: 'Andy Hunter, Jaxon Watt',
+      link: 'https://tafeqld.edu.au/news-and-events/news/2024/jaxon-turns-his-passion-into-a-tech-career',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Jaxon Watt’s journey to a technology career began when he enrolled in an entry-level TAFE at School electronics and programming qualification.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -200,11 +221,6 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
