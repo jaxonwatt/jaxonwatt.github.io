@@ -16,18 +16,18 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Shortna - URL Shortener',
-          description:
-            'Simple URL Shortner. Source Code: https://github.com/emcrald/Shortna',
-          imageUrl: 'https://i.imgur.com/90OtqJd.png',
-          link: 'https://shortna.netlify.app/',
-        },
-        {
           title: 'JaxConvert',
           description:
             'Convert WEBP images into a PNG instantly! Source Code: https://github.com/emcrald/JaxConvert',
           imageUrl: 'https://i.imgur.com/ncjOMS7.png',
-          link: 'https://jaxconvert.netlify.app/',
+          link: 'https://convert.jaxonwatt.com/',
+        },
+        {
+          title: 'Shortna - URL Shortener',
+          description:
+            'Simple URL Shortener. Source Code: https://github.com/emcrald/Shortna',
+          imageUrl: 'https://i.imgur.com/90OtqJd.png',
+          link: 'https://shortna.jaxonwatt.com/',
         },
         {
           title: 'Revinal Bot',
@@ -179,7 +179,7 @@ const CONFIG = {
       to: '2023',
     },
     {
-      institution: 'Faith Lutheran College, Redlands',
+      institution: 'Faith Lutheran College',
       degree: 'School',
       from: '2012',
       to: '2021',
