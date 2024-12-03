@@ -67,7 +67,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
           <div className="mt-3 text-base-content text-opacity-60 font-mono">
             {loading || !profile
               ? skeleton({ widthCls: 'w-48', heightCls: 'h-5' })
-              : profile.bio}
+              : 'Cybersecurity and Tech Enthusiast, Building Skills Through Hands-On Projects and Robotics Tinkering'}
           </div>
         </div>
 
