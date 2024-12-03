@@ -108,7 +108,7 @@ const CONFIG = {
     'HTML',
     'CSS',
     'Node.js',
-    'MySQL',
+    'SQL',
     'MongoDB',
     'Git',
   ],
