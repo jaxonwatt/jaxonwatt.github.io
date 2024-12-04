@@ -16,18 +16,11 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'JaxConvert',
+          title: 'F1 Driver Wordle',
           description:
-            'Convert WEBP images into a PNG instantly! Source Code: https://github.com/emcrald/JaxConvert',
-          imageUrl: 'https://i.imgur.com/ncjOMS7.png',
-          link: 'https://convert.jaxonwatt.com/',
-        },
-        {
-          title: 'Shortna - URL Shortener',
-          description:
-            'Simple URL Shortener. Source Code: https://github.com/emcrald/Shortna',
-          imageUrl: 'https://i.imgur.com/90OtqJd.png',
-          link: 'https://shortna.jaxonwatt.com/',
+            'Guess the F1 drivers last name! Its Wordle for F1 drivers :D',
+          imageUrl: 'https://i.imgur.com/C7PmFNq.png',
+          link: 'https://f1.jaxonwatt.com/',
         },
         {
           title: 'Revinal Bot',
@@ -35,6 +28,20 @@ const CONFIG = {
             'An Advanced Logging and Moderation Discord Bot built with JavaScript and hosted on a Raspberry Pi Linux server',
           imageUrl: 'https://i.imgur.com/nZE5Y4Q.png',
           link: 'https://revinal.xyz',
+        },
+        {
+          title: 'JaxConvert',
+          description:
+            'Convert WEBP images into a PNG instantly!',
+          imageUrl: 'https://i.imgur.com/ncjOMS7.png',
+          link: 'https://convert.jaxonwatt.com/',
+        },
+        {
+          title: 'Shortna - URL Shortener',
+          description:
+            'A Simple URL Shortener.',
+          imageUrl: 'https://i.imgur.com/90OtqJd.png',
+          link: 'https://shortna.jaxonwatt.com/',
         },
         {
           title: 'First Tech Challenge',
