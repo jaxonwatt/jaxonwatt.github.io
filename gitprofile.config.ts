@@ -19,7 +19,7 @@ const CONFIG = {
           title: 'F1 Driver Wordle',
           description:
             'Guess the F1 drivers last name! Its Wordle for F1 drivers :D',
-          imageUrl: 'https://i.imgur.com/C7PmFNq.png',
+          imageUrl: 'https://i.imgur.com/bkOBdIG.png',
           link: 'https://f1.jaxonwatt.com/',
         },
         {
