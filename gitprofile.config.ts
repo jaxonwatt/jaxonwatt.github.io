@@ -31,17 +31,22 @@ const CONFIG = {
         },
         {
           title: 'JaxConvert',
-          description:
-            'Convert WEBP images into a PNG instantly!',
+          description: 'Convert WEBP images into a PNG instantly!',
           imageUrl: 'https://i.imgur.com/ncjOMS7.png',
           link: 'https://convert.jaxonwatt.com/',
         },
         {
           title: 'Shortna - URL Shortener',
-          description:
-            'A Simple URL Shortener.',
+          description: 'A Simple URL Shortener.',
           imageUrl: 'https://i.imgur.com/90OtqJd.png',
           link: 'https://shortna.jaxonwatt.com/',
+        },
+        {
+          title: 'ClobNet',
+          description:
+            'ClobNet is a 1.20.4 Minecraft Java server packed with minigames and social aspects. Our custom resource pack brings a ton of cosmetics, including backpacks and hats you can wear to show off your style. Get ready for addicting minigames and fun features that will keep you coming back for more.',
+          imageUrl: 'https://i.imgur.com/qvxDcz6.png',
+          link: 'https://clobnet.org/',
         },
         {
           title: 'First Tech Challenge',
