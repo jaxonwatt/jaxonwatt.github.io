@@ -123,6 +123,9 @@ const CONFIG = {
     'SQL',
     'MongoDB',
     'Git',
+    'Arduino',
+    'Raspberry Pi',
+    '3D Printing',
   ],
   experiences: [
     {
@@ -131,6 +134,20 @@ const CONFIG = {
       from: 'January 2022',
       to: 'December 2022',
       companyLink: 'https://sublimetech.com.au',
+    },
+    {
+      company: 'Hungry Jacks',
+      position: 'Crew Member',
+      from: 'October 2023',
+      to: 'December 2023',
+      companyLink: 'https://www.hungryjacks.com.au/home',
+    },
+    {
+      company: 'Red Cross',
+      position: 'Volunteer',
+      from: 'April 2017',
+      to: 'June 2017',
+      companyLink: 'https://www.redcross.org.au/places/retail-stores/gatton/',
     },
   ],
   certifications: [
@@ -169,6 +186,12 @@ const CONFIG = {
       body: 'Learn JavaScript Course',
       year: 'August 2022',
       link: 'https://www.codecademy.com/learn/introduction-to-javascript',
+    },
+    {
+      name: 'Machine Learning in Python',
+      body: 'With Raspberry Pi & Sensors',
+      year: 'January 2022',
+      link: 'https://outschool.com/classes/machine-learning-in-python-with-raspberry-pi-sensors-level-1-3DTRS1Mj',
     },
   ],
   educations: [
