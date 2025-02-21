@@ -135,20 +135,6 @@ const CONFIG = {
       to: 'December 2022',
       companyLink: 'https://sublimetech.com.au',
     },
-    {
-      company: 'Hungry Jacks',
-      position: 'Crew Member',
-      from: 'October 2023',
-      to: 'December 2023',
-      companyLink: 'https://www.hungryjacks.com.au/home',
-    },
-    {
-      company: 'Red Cross',
-      position: 'Volunteer',
-      from: 'April 2017',
-      to: 'June 2017',
-      companyLink: 'https://www.redcross.org.au/places/retail-stores/gatton/',
-    },
   ],
   certifications: [
     {
