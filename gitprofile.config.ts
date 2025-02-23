@@ -72,14 +72,14 @@ const CONFIG = {
       manual: {
         // Properties for manually specifying projects
         projects: [
-          'emcrald/Emerald-Core',
-          'emcrald/Emerald-Music',
-          'emcrald/JaxScript',
-          'emcrald/Clubmine-Web',
-          'emcrald/is-discord-token',
+          'emcrald/F1-Driver-Wordle',
           'emcrald/JaxConvert',
           'emcrald/Shortna',
           'emerald-Bots-Studios/revinal',
+          'emcrald/is-discord-token',
+          'emcrald/Emerald-Core',
+          'emcrald/Emerald-Music',
+          'emcrald/JaxScript',
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
