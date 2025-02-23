@@ -18,7 +18,7 @@ const CONFIG = {
         {
           title: 'F1 Driver Wordle',
           description:
-            'Guess the F1 drivers last name! Its Wordle for F1 drivers :D',
+            'F1 Driver Wordle is a browser-based word-guessing game where players attempt to guess the last name of an F1 driver within six attempts. The game features different eras of F1, allowing users to choose a time period and guess drivers from that era.',
           imageUrl: 'https://i.imgur.com/bkOBdIG.png',
           link: 'https://f1.jaxonwatt.com/',
         },
@@ -31,20 +31,20 @@ const CONFIG = {
         },
         {
           title: 'JaxConvert',
-          description: 'Convert WEBP images into a PNG instantly!',
+          description: 'Jax Convert is a browser-based image converter that allows users to upload .webp images and convert them to .png format instantly. The conversion is powered by Sharp and runs serverlessly on Netlify.',
           imageUrl: 'https://i.imgur.com/ncjOMS7.png',
           link: 'https://convert.jaxonwatt.com/',
         },
         {
           title: 'Shortna - URL Shortener',
-          description: 'A Simple URL Shortener.',
+          description: 'Shortna is a lightweight URL shortener that converts long URLs into short, easy-to-share links. It uses MongoDB to store URL mappings and Netlify Functions for backend processing.',
           imageUrl: 'https://i.imgur.com/90OtqJd.png',
           link: 'https://shortna.jaxonwatt.com/',
         },
         {
           title: 'ClobNet',
           description:
-            'ClobNet is a 1.20.4 Minecraft Java server packed with minigames and social aspects. Our custom resource pack brings a ton of cosmetics, including backpacks and hats you can wear to show off your style. Get ready for addicting minigames and fun features that will keep you coming back for more.',
+            'ClobNet is a 1.21.1+ Minecraft Java server packed with minigames and social aspects. Our custom resource pack brings a ton of cosmetics, including backpacks and hats you can wear to show off your style. Get ready for addicting minigames and fun features that will keep you coming back for more.',
           imageUrl: 'https://i.imgur.com/qvxDcz6.png',
           link: 'https://clobnet.org/',
         },
@@ -77,8 +77,6 @@ const CONFIG = {
           'emcrald/Shortna',
           'emerald-Bots-Studios/revinal',
           'emcrald/is-discord-token',
-          'emcrald/Emerald-Core',
-          'emcrald/Emerald-Music',
           'emcrald/JaxScript',
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
@@ -198,20 +196,14 @@ const CONFIG = {
       degree: 'School',
       from: '2021',
       to: '2023',
-    },
-    {
-      institution: 'Faith Lutheran College',
-      degree: 'School',
-      from: '2012',
-      to: '2021',
-    },
+    }
   ],
   publications: [
     {
       title: 'Jaxon turns his passion into a tech career',
       conferenceName: '',
       journalName: '',
-      authors: 'Andy Hunter, Jaxon Watt',
+      authors: 'Andy Hunter',
       link: 'https://tafeqld.edu.au/news-and-events/news/2024/jaxon-turns-his-passion-into-a-tech-career',
       description:
         'Jaxon Watt’s journey to a technology career began when he enrolled in an entry-level TAFE at School electronics and programming qualification.',
