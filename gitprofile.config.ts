@@ -90,7 +90,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'jaxon-watt-aa3142331',
+    linkedin: 'jaxonwatt',
     twitter: 'emcraldtwt',
     mastodon: '',
     researchGate: '',
