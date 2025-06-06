@@ -76,8 +76,10 @@ const CONFIG = {
           'emcrald/JaxConvert',
           'emcrald/Shortna',
           'emerald-Bots-Studios/revinal',
-          'emcrald/is-discord-token',
+          'emcrald/pi-estimator',
           'emcrald/JaxScript',
+          'emcrald/Proxmox-LCD',
+          'emcrald/is-discord-token',
         ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
@@ -126,6 +128,13 @@ const CONFIG = {
     '3D Printing',
   ],
   experiences: [
+      {
+      company: 'Sublime Technologies',
+      position: 'Junior Technician',
+      from: 'May 2025',
+      to: 'Present',
+      companyLink: 'https://sublimetech.com.au',
+    },
     {
       company: 'Sublime Technologies',
       position: 'Internship - Junior Technician',
