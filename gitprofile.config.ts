@@ -128,7 +128,7 @@ const CONFIG = {
     '3D Printing',
   ],
   experiences: [
-      {
+    {
       company: 'Sublime Technologies',
       position: 'Junior Technician',
       from: 'May 2025',
@@ -217,6 +217,15 @@ const CONFIG = {
       description:
         'Jaxon Watt’s journey to a technology career began when he enrolled in an entry-level TAFE at School electronics and programming qualification.',
     },
+    {
+      title: 'TAFE Queensland’s Cyber Stars Shine at National Grand Final',
+      conferenceName: '',
+      journalName: '',
+      authors: 'TAFE Queensland',
+      link: 'https://tafeqld.edu.au/news-and-events/news/2025/tafe-queenslands-cyber-stars-shine-at-national-grand-final',
+      description:
+        'TAFE Queensland’s cyber security students have proven they can hold their own on the national stage, with one team earning a top-three finish at the 2025 Cyber Battle Australia Grand Final in Melbourne.',
+    }
   ],
   // Display articles from your medium or dev account. (Optional)
   googleAnalytics: {
