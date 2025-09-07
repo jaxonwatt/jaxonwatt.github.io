@@ -1,31 +1,59 @@
- <!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%- metaTitle %></title>
 
-    <meta property="title" content="<%- metaTitle %>" />
-    <meta name="description" content="<%- metaDescription %>" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%- metaTitle %></title>
 
-    <meta itemprop="name" content="<%- metaTitle %>" />
-    <meta itemprop="description" content="<%- metaDescription %>" />
-    <meta itemprop="image" content="<%- metaImageURL %>" />
+  <meta property="title" content="<%- metaTitle %>" />
+  <meta name="description" content="<%- metaDescription %>" />
 
-    <meta property="og:title" content="<%- metaTitle %>" />
-    <meta property="og:description" content="<%- metaDescription %>" />
-    <meta property="og:image" content="<%- metaImageURL %>" />
-    <meta property="og:image:secure_url" content="<%- metaImageURL %>" />
+  <meta itemprop="name" content="<%- metaTitle %>" />
+  <meta itemprop="description" content="<%- metaDescription %>" />
+  <meta itemprop="image" content="<%- metaImageURL %>" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="<%- metaTitle %>" />
-    <meta name="twitter:description" content="<%- metaDescription %>" />
-    <meta name="twitter:image" content="<%- metaImageURL %>" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <meta property="og:title" content="<%- metaTitle %>" />
+  <meta property="og:description" content="<%- metaDescription %>" />
+  <meta property="og:image" content="<%- metaImageURL %>" />
+  <meta property="og:image:secure_url" content="<%- metaImageURL %>" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%- metaTitle %>" />
+  <meta name="twitter:description" content="<%- metaDescription %>" />
+  <meta name="twitter:image" content="<%- metaImageURL %>" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jaxon Watt",
+    "url": "https://www.jaxonwatt.com",
+    "image": "https://jaxonwatt.com/avatar.jpg",
+    "jobTitle": "Cybersecurity Student & Developer",
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "TAFE Queensland"
+    },
+    "sameAs": [
+      "https://github.com/emcrald",
+      "https://www.linkedin.com/in/jaxonwatt",
+      "https://www.instagram.com/jaxon.watt",
+      "https://stackoverflow.com/users/19783530/jaxon-watt",
+      "https://tafeqld.edu.au/news-and-events/news/2024/jaxon-turns-his-passion-into-a-tech-career",
+      "https://tafeqld.edu.au/news-and-events/news/2025/tafe-queenslands-cyber-stars-shine-at-national-grand-final"
+    ],
+    "knowsAbout": ["Cybersecurity", "Networking", "Penetration Testing", "Programming", "F1 Projects", "Discord Bots"]
+  }
+  </script>
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
