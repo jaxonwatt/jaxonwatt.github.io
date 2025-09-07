@@ -129,6 +129,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Fit4Duty',
+      position: 'IT Officer',
+      from: 'June 2025',
+      to: 'Present',
+      companyLink: 'https://fit4duty.com.au',
+    },
+    {
       company: 'Sublime Technologies',
       position: 'Junior Technician',
       from: 'May 2025',
