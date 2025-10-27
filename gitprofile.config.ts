@@ -98,7 +98,7 @@ const CONFIG = {
     instagram: 'jaxon.watt',
     reddit: '',
     threads: '',
-    youtube: '',
+    youtube: 'jaxonwatt',
     udemy: '',
     dribbble: '',
     behance: '',
